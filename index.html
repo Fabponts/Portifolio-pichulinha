@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
     <title>Portifolio</title>
+    <link rel="stylesheet" href="estilos/style.css"/>
+    <link rel="icon" type="image/x-icon" href="/assets/Among-Us-Character-PNG-HD.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <header></header>
+    <header class="aba">
+        <nav class="aba__menu">
+           <a class="aba__menu__botao" href="index.html">Home</a>
+           <a class="aba__menu__botao" href="about.html" target="_blank">Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível 
@@ -17,14 +24,15 @@
                 Estou disponivel em busca de uma oportunidade,visando melhorar minhas habilidades
                  Vamos conversar?</p>
         <div class="apresentacao__links"> 
-            <a class="apresentacao__botao" href="https://www.linkedin.com/in/fabricio-pontes-tech/"target="_blank">LinkedIn</a>
-            <a class="apresentacao__botao" href="https://github.com/Fabponts" target="_blank">Github</a>
-        </div>
+            <h2 class="apresentacao__links__info">Acesse minhas redes:</h2>
+            <a  id="apresentacao__botao"  class="bi bi-linkedin" href="https://www.linkedin.com/in/fabricio-pontes-tech/"target="_blank">LinkedIn</a>
+            <a  id="apresentacao__botao" class="bi bi-github" href="https://github.com/Fabponts" target="_blank">Github</a>
+        </div>   
     </section>
-    <img src="Among-Us-Character-PNG-HD.png" alt="foto do pichulinha">
-    
-
+        <img class="apresentacao__imagem"src="/assets/Among-Us-Character-PNG-HD.png" alt="foto do pichulinha">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p class="texto__rodape">Desenvolvido por Fabricio Pontes</p>
+    </footer>
 </body>
 </html>
